@@ -66,3 +66,32 @@ img{
     }
 
 
+
+@media(max-width:500px){
+
+.choices{
+
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.choice{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#msg {
+    height: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    
+    }
+
+}
